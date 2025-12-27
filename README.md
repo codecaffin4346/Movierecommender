@@ -1,23 +1,7 @@
 # Movie Recommendation System
 
 This project is a movie recommendation system built with Streamlit and powered by a machine learning model. It recommends movies based on a selected title using cosine similarity and displays movie posters fetched from the TMDB API.
->YouTube tutorial [HERE](https://youtu.be/i-B_I2DGIAI)
 
->Dataset is [HERE](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
-
->Some files are not available on GitHub due to the large file size. you can get it [HERE](https://huggingface.co/sujoy0011/Movie-Recommendation-System/tree/main)
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Theory of Recommendation Systems](#theory-of-recommendation-systems)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Model](#model)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -44,12 +28,7 @@ A recommendation system is a subclass of information filtering systems that seek
 In this project, we use cosine similarity to measure the similarity between movie titles. Cosine similarity is a metric used to measure how similar two vectors are. It is calculated as the cosine of the angle between two vectors projected in a multi-dimensional space. For movie recommendation, the vectors represent movie features, and the similarity score indicates how alike two movies are.
 
 ## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/movie-recommendation-system.git
-    cd movie-recommendation-system
-    ```
+1. Clone the repo
 
 2. Install the required packages:
     ```bash
@@ -77,9 +56,9 @@ The model for recommending movies is based on cosine similarity. Cosine similari
 
 ## Results
 
+
 The system provides the top 10 recommended movies for any selected movie title. It also fetches and displays the posters of these recommended movies using the TMDB API.
 
-![Screenshot 2024-07-12 103743](https://github.com/user-attachments/assets/fbc357a1-a6e6-472a-892b-95fe96767743)
 
 ## Contributing
 
