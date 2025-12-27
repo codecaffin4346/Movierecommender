@@ -57,7 +57,10 @@ The model for recommending movies is based on cosine similarity. Cosine similari
 ## Results
 
 
-The system provides the top 10 recommended movies for any selected movie title. It also fetches and displays the posters of these recommended movies using the TMDB API.
+The system provides the top 10 recommended movies for any selected movie title. It also fetches and displays the posters of these recommended movies using the TMDB API. 
+ **Advanced Filtering**: Users can refine results by **Genre**, **Year**, and **Rating**, ensuring recommendations match their specific mood.
+**Interactive Visualization**: Includes a **Network Graph** view (Streamlit Agraph) to visualize connections between the selected movie and recommendations, offering a novel way to explore relationships.
+ **Cloud-Optimized}:** Built with an efficient data pipeline that creates the model on-the-fly, allowing for seamless deployment on platforms like Streamlit Cloud without managing massive pre-computed files
 
 
 ## Contributing
